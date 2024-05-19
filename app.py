@@ -59,7 +59,7 @@ def generate_response(input):
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's answer your question.For donations,send to 0776381981 to keep this project running"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's answer your question."}]
 
 # Display chat messages
 for message in st.session_state.messages:
