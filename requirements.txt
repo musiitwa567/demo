@@ -8,4 +8,5 @@ sentence_transformers
 faiss_cpu
 streamlit
 huggingface_hub
+langchain-community
 
