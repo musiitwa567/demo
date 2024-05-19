@@ -50,7 +50,7 @@ bot = ChatBot()
 
 st.set_page_config(page_title="Student Companion Assistant Chat Bot")
 with st.sidebar:
-    st.title('CUSTOMER SERVICE Chat Bot')
+    st.title('PRIMARY GPT')
 
 # Function for generating LLM response
 def generate_response(input):
@@ -59,7 +59,7 @@ def generate_response(input):
 
 # Store LLM generated responses
 if "messages" not in st.session_state.keys():
-    st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's answer your question"}]
+    st.session_state.messages = [{"role": "assistant", "content": "Welcome, let's answer your question.For donations,send to 0776381981 to keep this project running"}]
 
 # Display chat messages
 for message in st.session_state.messages:
